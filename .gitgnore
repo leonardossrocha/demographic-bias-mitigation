@@ -1,0 +1,5 @@
+fairface_env/
+__pycache__/
+.ipynb_checkpoints/
+*.pt
+*.pth
