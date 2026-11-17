@@ -68,7 +68,7 @@ Este projeto está licenciado sob a licença MIT - veja o arquivo LICENSE para m
 
 ### Versão em Inglês (EN)
 
-```markdown
+
 # Demographic Bias Mitigation in Computer Vision
 
 This repository contains the implementation of a research project aimed at mitigating demographic bias in Convolutional Neural Networks (CNNs). The project was developed as part of the graduate credits for the Computer Science Master's/PhD Program at the State University of Maringá (UEM - Brazil).
