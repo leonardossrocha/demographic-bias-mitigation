@@ -106,7 +106,7 @@ source fairface_env/bin/activate
 
 ## Installing dependencies (PyTorch and auxiliary libraries)
 
-# Install PyTorch (Example for CUDA 11.8)
+### Install PyTorch (Example for CUDA 11.8)
 ```bash
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 
@@ -114,7 +114,7 @@ pip install torch torchvision torchaudio --index-url https://download.pytorch.or
 pip install numpy pandas matplotlib scikit-learn opencv-python pillow tqdm jupyter datasets huggingface_hub
 ```
 
-## Running the Notebooks
+### Running the Notebooks
 
 With the environment activated and dependencies installed, start Jupyter Notebook to run the experiments:
 
