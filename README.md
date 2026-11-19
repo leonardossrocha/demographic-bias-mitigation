@@ -8,7 +8,7 @@ Este repositório contém a implementação do projeto de pesquisa voltado para 
 O foco deste estudo é demonstrar a disparidade estatística de desempenho de modelos clássicos de visão computacional sobre grupos demográficos específicos e propor uma arquitetura híbrida (ResNet-50 + mecanismo de atenção *Squeeze-and-Excitation*) combinada a uma função regularizadora de custo (*Fairness-Aware Loss*). O objetivo é mitigar o viés e nivelar a acurácia, promovendo a equidade algorítmica.
 
 ## 📊 Base de Dados (FairFace)
-Utilizamos o dataset **FairFace**, que contém imagens faciais balanceadas entre 7 grupos raciais/étnicos: *White, Black, Indian, East Asian, Southeast Asian, Middle Eastern* e *Latino*. O FairFace mitiga o forte desbalanceamento encontrado na maioria dos datasets canônicos. 
+Utilizamos o dataset [**FairFace**](https://huggingface.co/datasets/HuggingFaceM4/FairFace), que contém imagens faciais balanceadas entre 7 grupos raciais/étnicos: *White, Black, Indian, East Asian, Southeast Asian, Middle Eastern* e *Latino*. O FairFace mitiga o forte desbalanceamento encontrado na maioria dos datasets canônicos. 
 Para este projeto, utilizamos o recorte facial com margem `0.25`, disponibilizado via Hugging Face, focado na tarefa de classificação de gênero.
 
 ## 🔬 Metodologia e Cenários Experimentais
